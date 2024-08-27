@@ -1,0 +1,20 @@
+li.select {
+    color: brown;
+}
+
+.container{
+    color: aqua;
+}
+
+input[type="text"]{background:red;}
+input[type="password"]{background:blue;}
+
+#header h1, #header h2{
+    color: red;
+}
+
+#header >h1{color:red;}
+#section >h1{color:blue;}
+
+h1:hover {color:aqua;}
+h1:active {color: chartreuse;}

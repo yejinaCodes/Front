@@ -1,0 +1,148 @@
+@import "./global.css";
+
+.user-component {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.user-component__profile {
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    top: 90%;
+    left: 50%;
+}
+
+.user-component__id {
+    /* text-align: relative; */
+  padding-top: 60px;
+  font-size: 10px;
+  transform: translateX(-40px);
+
+}
+.add-profile-btn {
+    /* color: grey; */
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.user-component p{
+    /* text-align: center; */
+    padding-top: 60px;
+    font-size: 10px;
+    transform: translateX(-40px);
+}
+.continue-watching {
+    /* margin-top: 1px;
+    list-style: none;
+    display: flex;
+    overflow-x: auto; */
+  }
+
+.continue-watching__header {
+    font-size: 10px;
+}
+.continue-watching__card {
+    padding-top: 5px;
+    margin-top: 1px;
+    list-style: none;
+    display: flex;
+    overflow-x: auto;
+
+
+}
+.container{
+    padding-top: 4px;
+    width: 150px;
+    height: 110px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 15px;
+    background-color: rgb(80, 24, 80);
+    overflow-y: visible;
+}
+
+.continue-watching__title {
+  font-size: 8px;
+  margin-left: 8px;
+  margin-right: 10px;
+  transform: translateY(-15px);
+}
+
+
+.continue-watching__card img {
+    width: 140px;
+    height: 80px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.wishlist__header {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+.wishlist-item {
+    width: 800px;
+    padding-top: 4px;
+    border-radius: 15px;
+    margin-top: 7px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+    background-color: rgb(80, 24, 80);
+    display: flex;
+    position: relative;
+
+}
+.wishlist-title{
+    text-align:left;
+    font-size: 13px;
+    display: block;
+    margin-left: 10px;
+  }
+
+.character{
+    font-size: 11px;
+    display: block;
+    margin-left: 10px;
+  }
+
+.wishlist-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  margin-left: 4px;
+}
+.inner .material-icons{
+    color: white;
+    background-color:rgb(184, 68, 184);
+    border-radius: 50%;
+    position: absolute;
+    /* transform: translate(0,40%); */
+    transform: translateY(-2.1rem);
+    right:1%;
+    /* right: 10%; */
+    /* left:calc(75% + 6rem); */
+    font-size: 2.3rem;
+}
+
+.wishlist-info {
+ 
+}
+.wishlist-info {
+  
+}
+.wishlist__title {
+
+}
+.wishlist__subtitle {
+  
+}
+.wishlist-play-btn span {
+  
+}
+.wishlist {
+ 
+}

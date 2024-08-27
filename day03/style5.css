@@ -1,0 +1,19 @@
+@media(max-width:1200px){
+    body{
+        background-color: pink;
+    }
+}
+/* 너비가 600px 이하인 화면에서 배경색을 olive로 보여줘라*/
+@media(max-width:600px){
+    body{
+        background-color: olive;
+    }
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+span{
+    padding: 5px;
+}
